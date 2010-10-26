@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/daniels'
+let g:netrw_dirhist_2='/Users/daniels/src'
+let g:netrw_dirhist_3='/Users/daniels/src/tests'
+let g:netrw_dirhist_4='/Users/daniels/src/tests/sit'
+let g:netrw_dirhist_5='/Users/daniels/src/tests/sit/db'
+let g:netrw_dirhist_6='/Users/daniels/src/tests/sit'
+let g:netrw_dirhist_7='/Users/daniels/src/tests/sit/app'
+let g:netrw_dirhist_8='/Users/daniels/src/tests/sit/app/models'

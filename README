@@ -1,0 +1,8 @@
+# Personal vim config
+#
+# TODO: 
+# - list plugins used
+# - make multi-platform
+#
+# INSTALL:
+# create symlinks ln -s .vim/vimrc .vimrc
