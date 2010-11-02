@@ -18,10 +18,10 @@ set showbreak=…
 " gui / mac specific
 if has("gui_running")
 	set guioptions=egmrt
-	set transparency=2
-	set background=dark
+set background=dark
 	colorscheme lucius "railscasts
 	if has("gui_macvim")
+		set transparency=2
 		set guifont=Menlo:h11
 	endif
 endif
@@ -36,9 +36,16 @@ set si
 set incsearch
 set ignorecase
 
+"minibufexplorer
+let g:miniBufExplMapWindowNavVim = 1 
+let g:miniBufExplMapWindowNavArrows = 1 
+let g:miniBufExplMapCTabSwitchBufs = 1 
+let g:miniBufExplModSelTarget = 1 
+
 " commands
 if has("autocmd")
 	filetype on
+	set ofu=syntaxcomplete#Complete
 	" file specific
 	autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 	autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
