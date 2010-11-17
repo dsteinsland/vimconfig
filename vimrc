@@ -57,6 +57,12 @@ if has("autocmd")
 	autocmd bufwritepost .vimrc source $MYVIMRC
 endif
 
+" move between windows
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
 " additional edit commands
 let mapleader=","
 map <leader>ew :e <C-R>=expand("%:p:h") . "/" <CR>
