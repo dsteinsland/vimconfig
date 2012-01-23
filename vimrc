@@ -19,9 +19,9 @@ set showbreak=…
 if has("gui_running")
 	set guioptions=egmrt
 set background=dark
-	colorscheme lucius "railscasts
+	colorscheme clarity "lucius railscasts
 	if has("gui_macvim")
-		set transparency=2
+		set transparency=10
 		set guifont=Menlo:h11
 	endif
 endif
